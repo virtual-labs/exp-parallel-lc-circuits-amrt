@@ -1,1 +1,1 @@
-## Experiment name
+## Parallel LC Circuits

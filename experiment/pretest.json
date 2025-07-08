@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "AC measuring instrument measures",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "average value",
+        "b": "rms value",
+        "c": "peak value",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "AC meters typically do not show the average of AC signals.",
+        "b": "Correct! Most AC meters show the root mean square (rms) value of the current or voltage.",
+        "c": "Peak value is not commonly measured directly by standard AC meters.",
+        "d": "One of the above is correct."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Alternating voltage",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "is independent of time",
+        "b": "varies directly with time",
+        "c": "varies sinusoidally",
+        "d": "varies inversely with time"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Alternating voltage changes over time.",
+        "b": "Not entirely correct. It varies sinusoidally, not linearly.",
+        "c": "Correct! AC voltage typically follows a sinusoidal waveform.",
+        "d": "Incorrect. It's not an inverse relationship."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A choke is used as a resistor in",
+      "answers": {
+        "a": "dc circuit",
+        "b": "an ac circuit",
+        "c": "half wave rectifier",
+        "d": "both ac and dc"
+      },
+      "explanations": {
+        "a": "Incorrect. A choke has little effect in a DC circuit after initial current flow.",
+        "b": "Correct! A choke is used in AC circuits to block high-frequency signals.",
+        "c": "It's not primarily used in rectifier circuits as a resistor.",
+        "d": "Not ideal for DC; mainly used in AC circuits."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
