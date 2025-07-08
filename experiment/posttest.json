@@ -2,37 +2,71 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "At resonance in a parallel LC circuit, the impedance is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Very low",
+        "b": "Zero",
+        "c": "Infinitely high",
+        "d": "Equal to resistance"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. This is true for series LC resonance.",
+        "b": "Not correct in a parallel LC circuit.",
+        "c": "Correct! The impedance becomes theoretically infinite at resonance in a parallel LC circuit.",
+        "d": "Resistance is not the main factor here."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a parallel LC circuit at resonance, the current drawn from the source is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Maximum",
+        "b": "Equal to current through L",
+        "c": "Equal to current through C",
+        "d": "Zero"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. This is true for a series LC circuit.",
+        "b": "No, they cancel each other out at resonance.",
+        "c": "Same as above.",
+        "d": "Correct! At resonance, the net current from the source is zero."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a parallel LC circuit, energy is exchanged between:",
+      "answers": {
+        "a": "Battery and capacitor",
+        "b": "Resistor and inductor",
+        "c": "Inductor and capacitor",
+        "d": "Source and inductor"
+      },
+      "explanations": {
+        "a": "Battery only supplies energy initially.",
+        "b": "Resistors dissipate, not exchange energy.",
+        "c": "Correct! Energy oscillates between the inductor and capacitor.",
+        "d": "Not a continuous energy exchange."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The phase difference between current and voltage in a pure inductor is:",
+      "answers": {
+        "a": "0°",
+        "b": "90° lagging",
+        "c": "90° leading",
+        "d": "180°"
+      },
+      "explanations": {
+        "a": "Incorrect. That’s for resistors.",
+        "b": "Correct! In a pure inductor, current lags voltage by 90°.",
+        "c": "This applies to capacitors, not inductors.",
+        "d": "No, that's not true for ideal inductors."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
