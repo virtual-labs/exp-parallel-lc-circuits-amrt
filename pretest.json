@@ -1,0 +1,124 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "AC measuring instrument measures",
+      "answers": {
+        "a": "average value",
+        "b": "rms value",
+        "c": "peak value",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "AC meters typically do not show the average of AC signals.",
+        "b": "Correct! Most AC meters show the root mean square (rms) value of the current or voltage.",
+        "c": "Peak value is not commonly measured directly by standard AC meters.",
+        "d": "One of the above is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Alternating voltage",
+      "answers": {
+        "a": "is independent of time",
+        "b": "varies directly with time",
+        "c": "varies sinusoidally",
+        "d": "varies inversely with time"
+      },
+      "explanations": {
+        "a": "Incorrect. Alternating voltage changes over time.",
+        "b": "Not entirely correct. It varies sinusoidally, not linearly.",
+        "c": "Correct! AC voltage typically follows a sinusoidal waveform.",
+        "d": "Incorrect. It's not an inverse relationship."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A choke is used as a resistor in",
+      "answers": {
+        "a": "dc circuit",
+        "b": "an ac circuit",
+        "c": "half wave rectifier",
+        "d": "both ac and dc"
+      },
+      "explanations": {
+        "a": "Incorrect. A choke has little effect in a DC circuit after initial current flow.",
+        "b": "Correct! A choke is used in AC circuits to block high-frequency signals.",
+        "c": "It's not primarily used in rectifier circuits as a resistor.",
+        "d": "Not ideal for DC; mainly used in AC circuits."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "At resonance in a parallel LC circuit, the impedance is:",
+      "answers": {
+        "a": "Very low",
+        "b": "Zero",
+        "c": "Infinitely high",
+        "d": "Equal to resistance"
+      },
+      "explanations": {
+        "a": "Incorrect. This is true for series LC resonance.",
+        "b": "Not correct in a parallel LC circuit.",
+        "c": "Correct! The impedance becomes theoretically infinite at resonance in a parallel LC circuit.",
+        "d": "Resistance is not the main factor here."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a parallel LC circuit at resonance, the current drawn from the source is:",
+      "answers": {
+        "a": "Maximum",
+        "b": "Equal to current through L",
+        "c": "Equal to current through C",
+        "d": "Zero"
+      },
+      "explanations": {
+        "a": "Incorrect. This is true for a series LC circuit.",
+        "b": "No, they cancel each other out at resonance.",
+        "c": "Same as above.",
+        "d": "Correct! At resonance, the net current from the source is zero."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a parallel LC circuit, energy is exchanged between:",
+      "answers": {
+        "a": "Battery and capacitor",
+        "b": "Resistor and inductor",
+        "c": "Inductor and capacitor",
+        "d": "Source and inductor"
+      },
+      "explanations": {
+        "a": "Battery only supplies energy initially.",
+        "b": "Resistors dissipate, not exchange energy.",
+        "c": "Correct! Energy oscillates between the inductor and capacitor.",
+        "d": "Not a continuous energy exchange."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The phase difference between current and voltage in a pure inductor is:",
+      "answers": {
+        "a": "0°",
+        "b": "90° lagging",
+        "c": "90° leading",
+        "d": "180°"
+      },
+      "explanations": {
+        "a": "Incorrect. That’s for resistors.",
+        "b": "Correct! In a pure inductor, current lags voltage by 90°.",
+        "c": "This applies to capacitors, not inductors.",
+        "d": "No, that's not true for ideal inductors."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
